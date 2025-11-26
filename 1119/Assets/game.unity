@@ -690,6 +690,46 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.x
       value: -90
       objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 6.6
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.8660254
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 60
+      objectReference: {fileID: 0}
+    - target: {fileID: -2021178655527167927, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: -1853094968961178454, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: far clip plane
+      value: 10000
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_Name
       value: Rubik Cube By Kikapp
