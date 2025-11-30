@@ -6,14 +6,48 @@ using TMPro;
 public class GameDirector : MonoBehaviour
 {
     GameObject timerText;
-    float time = 60.0f;
+    GameObject pointText; 
+    float time = 30.0f;
+    int point = 0;
+    GameObject generator;
+    public void GetApple()
+    {
+        this.point += 100;
+    }
+    public void Bomb()
+    {
+        this.point /= 2;
+    }
     void Start()
     {
         this.timerText = GameObject.Find("Time");
+        this.pointText = GameObject.Find("Point");
+        this.generator = GameObject.Find("ItemGenerator");
     }
     void Update()
     {
         this.time -= Time.deltaTime;
-        this.timerText.GetComponent<TextMeshProUGUI>().text = this.time.ToString("F1");
+        if (this.time < 0)
+        {
+            this.time = 0;
+            this.generator.GetComponent<ItemGenerator>().SetParameter(10000.0f, 0, 0);
+        }
+        else if (0 <= this.time && this.time < 4)
+        {
+            this.generator.GetComponent<ItemGenerator>().SetParameter(0.7f, -0.04f, 3);
+        }
+        else if (4 <= this.time && this.time < 12)
+        {
+            this.generator.GetComponent<ItemGenerator>().SetParameter(0.5f, -0.05f, 6);
+        }
+        else if (12 <= this.time && this.time < 23)
+        {
+            this.generator.GetComponent<ItemGenerator>().SetParameter(0.8f, -0.04f, 4);
+        }
+        else if (23 <= this.time && this.time < 30)
+        {
+            this.generator.GetComponent<ItemGenerator>().SetParameter(1.0f, -0.03f, 2);
+        }
     }
+        
 }
