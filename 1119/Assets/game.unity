@@ -884,6 +884,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: -8391222552659086748, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: -7493596028755563170, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_LocalScale.x
       value: 0
@@ -899,6 +903,10 @@ PrefabInstance:
     - target: {fileID: -7493596028755563170, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_ConstrainProportionsScale
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -7029948723529949830, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: -5477749408508380018, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_LocalScale.z
@@ -973,12 +981,40 @@ PrefabInstance:
       value: 10000
       objectReference: {fileID: 0}
     - target: {fileID: 65702495048144492, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 65702495048144492, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_TagString
       value: MainCamera
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
       propertyPath: m_Name
       value: Rubik Cube By Kikapp
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3472778375830378061, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4974984522306558807, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5050422055867433376, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7869873546869171050, guid: 214555e8c426ce04da71dd8b83a950e4, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1043,6 +1079,18 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1082,9 +1130,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_ConstrainProportionsScale
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
       propertyPath: m_Name
       value: Basket without background
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1093,6 +1149,10 @@ PrefabInstance:
     - target: {fileID: 1151388028547126963, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
       propertyPath: m_LocalPosition.z
       value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: cbf5eb5637be9e345b5cd9baf3db9abe, type: 3}
+      propertyPath: m_Layer
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1130,6 +1190,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::BasketController
   appleSE: {fileID: 8300000, guid: 2ef57a5ba05a9e04bbf2f91fcda5a7b4, type: 3}
   bombSE: {fileID: 8300000, guid: c99b20f8e37321145b7a33b89b9cfddc, type: 3}
+  platformLayer:
+    serializedVersion: 2
+    m_Bits: 64
 --- !u!65 &2056629567
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1177,7 +1240,7 @@ Rigidbody:
   m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 0
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
 --- !u!82 &2056629569
 AudioSource:
   m_ObjectHideFlags: 0

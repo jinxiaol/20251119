@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine; 
+using UnityEngine;
 
 public class BasketController : MonoBehaviour
 {
@@ -8,6 +8,8 @@ public class BasketController : MonoBehaviour
     public AudioClip bombSE;
     AudioSource aud;
     GameObject director;
+    [SerializeField]
+    private LayerMask platformLayer;
     void Start()
     {
         Application.targetFrameRate = 60;
@@ -20,11 +22,13 @@ public class BasketController : MonoBehaviour
         {
             this.aud.PlayOneShot(this.appleSE);
             this.director.GetComponent<GameDirector>().GetApple();
+            Destroy(other.gameObject);
         }
-        else 
+        if (other.gameObject.CompareTag("Bomb"))
         {
             this.aud.PlayOneShot(this.bombSE);
             this.director.GetComponent<GameDirector>().Bomb();
+            Destroy(other.gameObject);
         }
     }
     void Update()
@@ -33,12 +37,11 @@ public class BasketController : MonoBehaviour
         {
             Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
             RaycastHit hit;
-            if (Physics.Raycast(ray, out hit, Mathf.Infinity))
+            if (Physics.Raycast(ray, out hit, Mathf.Infinity, platformLayer))
             {
                 float x = Mathf.RoundToInt(hit.point.x);
                 float z = Mathf.RoundToInt(hit.point.z);
-                transform.position = new Vector3(x, 0, z);
-
+                transform.position = new Vector3(x, 1, z);
             }
         }
     }
